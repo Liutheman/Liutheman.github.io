@@ -1,0 +1,138 @@
+body {
+    font-family: helvetica;
+    text-align: center;
+    color: black;
+    background-color:white;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: black;
+    height: 50px;
+
+}
+
+nav a {
+    height: 30px;
+    width: 120px;
+}
+
+
+nav a img {
+    padding-top: 12px;
+    height: 56px;
+    width: 196px;
+}
+
+#divBusca{
+    background-color:#2c2b2e;
+    border:solid 1px;
+    border-radius:15px;
+    width: 418px;
+    height: 36px;
+    align-self: center;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    color: whitesmoke;
+    padding-left:5px;
+    font-style:normal;
+    font-size:24px;
+    border:none;
+    height:36px;
+    width:416px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    font-family: arial;
+    font-size: 20;
+    color: white;
+}
+
+section {
+border-bottom: 2px solid black;
+}
+
+
+
+section h1 {
+    font-size: xx-large;
+}
+
+section p {
+    font-family: arial;
+    font-size: large;
+}
+
+.product {
+    display: flex;
+    padding: 15px;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+}
+
+footer img {
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.container img{
+    height: 388px;
+    width: 443px;
+}
+
+.container h1{
+    padding-top: 60px;
+    font-size: 32px;
+    line-height: 100px;
+    border: 5px solid black;
+
+}
+
+.container h1 ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+button {
+height: 40px;
+width: 150px;
+background-color: black;
+color: white;
+border-radius: 10px;
+font-size: 15px;
+}
